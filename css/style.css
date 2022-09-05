@@ -95,3 +95,12 @@ body {
 textarea {
   padding: 10px 12px;
 }
+
+#vertical {
+  transform: rotate(90deg);
+  width: auto;
+  margin-top: 4rem;
+  color: black;
+  background-color: black;
+  height: 0.5rem;
+}
