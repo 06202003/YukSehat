@@ -49,7 +49,6 @@ body {
 
 .carousel-icon i {
   font-size: 5rem;
-  color: rgba(255, 255, 255, 0.3);
 }
 
 .carousel-item i {
@@ -59,21 +58,40 @@ body {
 
 .t-card {
   padding: 1.8125rem 1.125rem;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #2596be;
   border-radius: 1.25rem;
   color: #fff;
   height: auto;
 }
 
-.arrow-down {
-  width: 0;
-  height: 0;
-  border-left: 1.5625rem solid transparent;
-  border-right: 1.5625rem solid transparent;
-  border-top: 1.25rem solid rgba(0, 0, 0, 0.5);
-}
 /* Testimoni */
 
 /* Footer */
 
 /* Footer */
+
+/* Login */
+.login {
+  margin: 0 auto;
+  max-width: 1000px;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.logo-login {
+  max-width: 300px;
+  width: 100%;
+  margin: 3rem;
+  border: none;
+}
+.daftarsekarang {
+  text-decoration: none;
+}
+#login {
+  background-image: url('/images/bglogin.jpg');
+}
+/* Login */
+
+textarea {
+  padding: 10px 12px;
+}
