@@ -15,15 +15,23 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Font Judul-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" />
+    <!-- Font Isi -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet" />
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="/images/logo.png" alt="" width="50" height="50" />
         </a>
-        <a class="navbar-brand" href="#">YukSehat</a>
+        <a class="navbar-brand fw-bold text-white" href="#">YUKSEHAT</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -58,7 +66,7 @@
 
     <!-- Carousel -->
 
-    <section class="">
+    <section style="margin-top: 4.75rem">
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner m-0">
           <div class="carousel-item active">
@@ -87,20 +95,32 @@
     <section class="my-3">
       <div class="container">
         <div class="row d-flex justify-content-center">
-          <div class="col-md-12 text-center"><h1 class="display-3 mb-5">SELAMAT DATANG DI SITUS YUK SEHAT</h1></div>
+          <div class="col-md-12 text-center"><h1 class="display-3 mb-5">Selamat Datang di Situs YUKSEHAT</h1></div>
           <div class="card border border-0">
             <div class="card-body">
               <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 d-flex justify-content-center border border-5 rounded-3 rounded-pill">
-                  <img src="https://source.unsplash.com/300x300/?businessman" class="rounded-circle img-responsive img-fluid fitur" />
-                  <img src="https://source.unsplash.com/300x300/?businessman" class="rounded-circle img-responsive img-fluid fitur" />
-                  <img src="https://source.unsplash.com/300x300/?businessman" class="rounded-circle img-responsive img-fluid fitur" />
-                  <img src="https://source.unsplash.com/300x300/?businessman" class="rounded-circle img-responsive img-fluid fitur" />
-                  <img src="https://source.unsplash.com/300x300/?businessman" class="rounded-circle img-responsive img-fluid fitur" />
-                  <img src="https://source.unsplash.com/300x300/?businessman" class="rounded-circle img-responsive img-fluid fitur" />
+                <div class="col-md-1"></div>
+                <div class="col-md-2 text-center">
+                  <img src="/images/obat.jpg" class="rounded-circle border border-3 img-responsive img-fluid fitur" />
+                  <p>Daftar Penyakit & Obat</p>
                 </div>
-                <div class="col-md-2"></div>
+                <div class="col-md-2 text-center">
+                  <img src="/images/calculator.jpg" class="border border-3 rounded-circle img-responsive img-fluid fitur kalku" />
+                  <p>Kalkulator Kesehatan</p>
+                </div>
+                <div class="col-md-2 text-center">
+                  <img src="/images/hospital.jpg" class="border border-3 rounded-circle img-responsive img-fluid fitur" />
+                  <p>Periksa Rumah Sakit</p>
+                </div>
+                <div class="col-md-2 text-center">
+                  <img src="/images/doctor.jpg" class="border border-3 rounded-circle img-responsive img-fluid fitur" />
+                  <p>Tanya Dokter</p>
+                </div>
+                <div class="col-md-2 text-center">
+                  <img src="/images/artikel.jpg" class="border border-3 rounded-circle img-responsive img-fluid fitur" />
+                  <p>Artikel</p>
+                </div>
+                <div class="col-md-1"></div>
               </div>
             </div>
           </div>
@@ -112,19 +132,26 @@
     <!-- Informasi -->
     <section style="height: auto">
       <div class="container">
-        <h1 class="text-center display-3 mb-5">SEKILAS INFORMASI</h1>
+        <h1 class="text-center display-3 mb-3">SEKILAS INFORMASI</h1>
         <div class="row my-3 align-self-center justify-content-md-center">
           <div class="col-md-5">
             <img class="infromasisatu" src="images/informasi-satu.png" />
           </div>
           <div class="col-md-7 align-self-center justify-content-md-center">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, provident quisquam libero asperiores veniam odit nesciunt repudiandae voluptas dicta unde accusamus aliquid ex, fugit magni dolorum vel est nihil rerum.
+            <h3 class="fw-bold">Potensi Masyarakat Pakai Layanan Kesehatan Digital</h3>
+            <p style="text-align: justify">
+              Medix Group, penyedia solusi manajemen medis global, mencatat terdapat 92 persen masyarakat Indonesia akan memanfaatan layanan kesehatan digital pada 2022. CEO & Presiden Medix Sigal Atzmon menjabarkan, angka tersebut
+              mengalami kenaikan yang signifikan dari 64 persen masyarakat yang menggunakan aplikasi digital sebelum pandemi Covid-19.
+            </p>
           </div>
         </div>
-        <div class="row my-3">
+        <div class="row mb-3">
           <div class="col-md-7 align-self-center justify-content-md-center">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, impedit. Nostrum cum odio, tenetur officiis a doloribus voluptatibus animi, nobis, consectetur inventore iste quibusdam culpa? Odit ex reprehenderit perspiciatis
-            sapiente?
+            <h3 class="fw-bold text-end">Kesadaran Masyarakat Indonesia terhadap Kesehatan Kian Meningkat</h3>
+            <p style="text-align: justify">
+              Berdasarkan data Nielsen's New Global Health and Ingredient-Sentiment Survey yang dirilis akhir 2016 mengenai pola makan masyarakat modern di Indonesia menunjukkan, 70% responden menjalani diet tertentu untuk menghindari
+              berbagai penyakit degeneratif. Survei tersebut juga menunjukkan 68% responden mulai berinvestasi lebih pada makanan dengan kandungan yang sesuai diet mereka.
+            </p>
           </div>
           <div class="col-md-5 order-sm-1">
             <img class="infromasidua" src="images/informasidua.png" />
@@ -153,19 +180,18 @@
                   <div class="row p-4">
                     <div class="t-card">
                       <i class="fa fa-quote-left" aria-hidden="true"></i>
-                      <p class="lh-lg">Review goes here...</p>
+                      <p class="lh-lg">Website ini sangat membantu saya dalam mencari keberadaan rumah sakit dan bertanya kepada dokter spesialis</p>
                       <i class="fa fa-quote-right" aria-hidden="true"></i><br />
                     </div>
                     <div class="row">
                       <div class="col-sm-2 pt-3">
-                        <img src="https://source.unsplash.com/300x300/?girl" class="rounded-circle img-responsive img-fluid" />
+                        <img src="/images/david.jpg" class="rounded-circle img-responsive img-fluid" />
                       </div>
-                      <div class="col-sm-10">
-                        <div class="arrow-down d-none d-lg-block"></div>
-                        <h4><strong>Sunaina Samuel</strong></h4>
+                      <div class="col-sm-10 text-dark my-auto">
+                        <h4><strong>Yehezkiel David Setiawan</strong></h4>
                         <p class="testimonial_subtitle">
-                          <span>Associate Software Engineer</span><br />
-                          <span>CodeHim</span>
+                          <span>Software Engineer</span><br />
+                          <span>Maranatha Christian University</span>
                         </p>
                       </div>
                     </div>
@@ -175,19 +201,19 @@
                   <div class="row p-4">
                     <div class="t-card">
                       <i class="fa fa-quote-left" aria-hidden="true"></i>
-                      <p class="lh-lg">Review goes here...</p>
+                      <p class="lh-lg">Website ini sangat membantu saya dalam mencari keberadaan rumah sakit dan bertanya kepada dokter spesialis</p>
                       <i class="fa fa-quote-right" aria-hidden="true"></i><br />
                     </div>
-                    <div class="row">
+
+                    <div class="row d-flex justify-content-center">
                       <div class="col-sm-2 pt-4">
-                        <img src="https://source.unsplash.com/300x300/?man" class="rounded-circle img-responsive img-fluid" />
+                        <img src="/images/arthur.png" class="rounded-circle img-responsive img-fluid" />
                       </div>
-                      <div class="col-sm-10">
-                        <div class="arrow-down d-none d-lg-block"></div>
-                        <h4><strong>Esther Zawadi</strong></h4>
+                      <div class="col-sm-10 text-dark my-auto">
+                        <h4><strong>Cristianto Tri Arthurito</strong></h4>
                         <p class="testimonial_subtitle">
-                          <span> digital strategist</span><br />
-                          <span>Vaxa digital</span>
+                          <span>Software Engineer</span><br />
+                          <span>Maranatha Christian University</span>
                         </p>
                       </div>
                     </div>
@@ -197,19 +223,18 @@
                   <div class="row p-4">
                     <div class="t-card">
                       <i class="fa fa-quote-left" aria-hidden="true"></i>
-                      <p class="lh-lg">Review goes here...</p>
+                      <p class="lh-lg">Website ini sangat membantu saya dalam mencari keberadaan rumah sakit dan bertanya kepada dokter spesialis</p>
                       <i class="fa fa-quote-right" aria-hidden="true"></i><br />
                     </div>
                     <div class="row text-lg-start">
                       <div class="col-sm-2 pt-4 align-items-center">
-                        <img src="https://source.unsplash.com/300x300/?businessman" class="rounded-circle img-responsive img-fluid" />
+                        <img src="/images/Willy.jpg" class="rounded-circle img-responsive img-fluid" />
                       </div>
-                      <div class="col-sm-10">
-                        <div class="arrow-down d-none d-md-block"></div>
-                        <h4><strong>Patrick muriungi</strong></h4>
+                      <div class="col-sm-10 text-dark my-auto">
+                        <h4><strong>Willyandie Saputra</strong></h4>
                         <p class="testimonial_subtitle">
-                          <span>Web Technologist</span><br />
-                          <span>Vaxa digital</span>
+                          <span>Software Engineer</span><br />
+                          <span>Maranatha Christian University</span>
                         </p>
                       </div>
                     </div>
