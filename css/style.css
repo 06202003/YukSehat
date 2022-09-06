@@ -3,6 +3,39 @@
   padding: 0;
 }
 
+.btn:hover {
+  font-weight: bolder;
+}
+.btn-outline-success {
+  border: none;
+}
+
+/* Body */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 20px;
+  border: 3px solid black;
+}
+/* Body */
+
+.pembatas {
+  color: black;
+  height: 0.2rem;
+  background-color: black;
+}
+
+/* Navbar */
 .navbar {
   background-color: #2596be;
   color: white;
@@ -11,7 +44,31 @@
 .navbar-brand {
   font-size: 1.5rem;
 }
+.button-login-nav {
+  background-color: #0066a6 !important;
+}
+.bordernav {
+  border-right: solid white;
+}
+.margin-nav {
+  margin-left: 0.5rem;
+}
+/* Navbar */
 
+/* Fitur */
+.fitur {
+  height: auto;
+  max-height: 100px;
+  width: 100%;
+  max-width: 100px;
+  margin: 1rem;
+}
+.kalku {
+  padding: 5px;
+}
+/* Fitur */
+
+/* Informasi */
 .infromasisatu {
   height: auto;
   max-height: 300px;
@@ -25,14 +82,7 @@
   width: 100%;
   max-width: 500px;
 }
-
-.fitur {
-  height: auto;
-  max-height: 100px;
-  width: 100%;
-  max-width: 100px;
-  margin: 1rem;
-}
+/* Insformasi */
 
 /* Testimoni */
 .client {
@@ -42,69 +92,101 @@
 
 .carousel-icon i {
   font-size: 5rem;
-  color: rgba(255, 255, 255, 0.3);
 }
 
 .carousel-item i {
   font-size: 1.6rem;
-  color: rgba(255, 255, 255, 0.3);
+  color: black;
 }
 
 .t-card {
   padding: 1.8125rem 1.125rem;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #e5eef7;
   border-radius: 1.25rem;
-  color: #fff;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: black;
   height: auto;
 }
 
-.arrow-down {
-  width: 0;
-  height: 0;
-  border-left: 1.5625rem solid transparent;
-  border-right: 1.5625rem solid transparent;
-  border-top: 1.25rem solid rgba(0, 0, 0, 0.5);
-}
 /* Testimoni */
 
 /* Footer */
 
 /* Footer */
 
-/* Media Query Halaman Kalkulator */
-@media only screen and (min-width: 600px) {
-      .mediaqOC{
-        margin-left: 530px; 
-        margin-top: 4%; 
-        width: 30%; 
-        height: 85%;
-      }
-      
-      .mediaqOC1{
-        margin-right: 545px; 
-        margin-top: 4%; 
-        width: 30%; 
-        height: 85%;
-      }
+/* Login */
+.login {
+  margin: 0 auto;
+  max-width: 1000px;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.logo-login {
+  max-width: 300px;
+  width: 100%;
+  margin: 3rem;
+  border: none;
+}
+.daftarsekarang {
+  text-decoration: none;
+}
+#login {
+  background-image: url('/images/bglogin.jpg');
+}
 
-      .mediaqOC2{
-        margin-left: 530px; 
-        margin-top: 4%; 
-        width: 30%; 
-      }
-      }
-/* End Media Query Halaman Kalkulator */
+.button-login {
+  background-color: #3194d1 !important;
+}
+.link-login {
+  color: #3194d1 !important;
+}
+.icon-login {
+  color: #3194d1;
+}
+/* Login */
 
-/* Media Query Halaman cek rumkit  */
-@media only screen and (min-width: 600px) {
-  .mediaqOC{
-    margin-left: 530px; 
-    margin-top: 4%; 
-    width: 30%; 
-    height: 85%;
+/* Penyaktit & Obat */
+#vertical {
+  transform: rotate(90deg);
+  width: auto;
+  margin-top: 4rem;
+  color: black;
+  background-color: black;
+  height: 0.5rem;
+}
+.sec-penyakitobat {
+  height: 24.5vh;
+}
+/* Penyaktit & Obat */
+
+/* Media Query Smartphone*/
+@media only screen and (min-width: 319px) and (max-width: 667px) {
+  #vertical {
+    transform: rotate(0deg);
+    width: auto;
+    color: black;
+    background-color: black;
   }
-  .mediaqI{
-    width: 50%;
+  .sec-penyakitobat {
+    height: auto;
+    margin-bottom: 4rem;
   }
+
+  .logo-login {
+    max-width: 150px;
+    width: 100%;
+    margin: 1rem;
+    border: none;
   }
-/* End Media Query Halaman cek rumkit  */
+  .bordernav {
+    border-right: none;
+  }
+  .margin-nav {
+    margin: 0;
+  }
+  .triangle {
+    display: none;
+  }
+}

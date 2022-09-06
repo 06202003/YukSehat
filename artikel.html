@@ -8,46 +8,241 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="icon" type="image/png" sizes="32x32" href="images/logohead.png" />
+    <!-- Font Isi -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet" />
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="/images/logo.png" alt="" width="50" height="50" />
         </a>
-        <a class="navbar-brand" href="#">YukSehat</a>
+        <a class="navbar-brand fw-bold text-white" href="#">YukSehat</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="home.html">Beranda</a>
+              <a class="nav-link text-white" aria-current="page" href="index.html">Beranda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="penyakitobat.html">Cari Penyakit & Obat</a>
+              <a class="nav-link text-white" href="penyakitobat.html">Cari Penyakit & Obat</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="kalkulator.html">Kalkulator Kesehatan</a>
+              <a class="nav-link text-white" href="kalkulator.html">Kalkulator Kesehatan</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="cekrumkit.html">Cek Rumah Sakit</a>
+              <a class="nav-link text-white" href="cekrumkit.html">Cek Rumah Sakit</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="tanyadok.html">Tanya Dokter</a>
+              <a class="nav-link text-white" href="tanyadok.html">Tanya Dokter</a>
             </li>
-            <li class="nav-item border-end border-3 border-dark">
-              <a class="nav-link" href="artikel.html">Artikel</a>
+            <li class="nav-item bordernav">
+              <a class="nav-link text-white" href="artikel.html">Artikel</a>
             </li>
-            <li class="nav-item my-auto ms-2">
-              <a type="button" class="btn btn-primary" href="index.html">Masuk</a>
+            <li class="nav-item my-auto margin-nav">
+              <a type="button" class="btn btn-outline-light button-login-nav" href="login.html">Masuk</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- Navbar -->
+
+    <!-- Halaman Artikel -->
+    <section style="margin-top: 5.75rem">
+      <div class="mx-3 ">
+        <div class="card mb-4 border rounded-3 " style=" width: 100%;height: auto;">
+          <div class="row d-flex g-0 " >
+            <div class="col-md-2 my-auto border rounded-3 bg-danger">
+             <h4 class="text-center py-3 text-white" > BREAKING NEWS</h4>
+            </div>
+            <div class="col-md-10 my-auto ">
+              <div class="card-body px-0" >
+                <marquee class="news-content"  scrollamount="15">
+                  <h5>Willyandie Philips Saputra seorang anak bangsawan mengidap Kanker (Kantong Kering) karena diusir dari Kerajaan Sunda Empire</h5>
+                </marquee>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <h2 class="text-center my-3">Berita Kesehatan Terkini</h1>
+              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner m-0">
+                  <div class="carousel-item active">
+                    <img src="/images/poster1.png" class="d-block w-100" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/images/poster2.png" class="d-block w-100" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/images/poster3.png" class="d-block w-100" alt="..." />
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body">
+                <h3>Lorem Ipsum</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <img class="mb-3" src="/images/poster1.png" style="width: 100%;">
+            <img class="mb-3" src="/images/poster2.png" style="width: 100%;">
+            <img class="mb-3" src="/images/poster3.png" style="width: 100%;">
+          </div>
+          <div class="col-md-8">
+            <h2 class="text-center mt-3 pb-3 border-bottom border-3 border-dark" style="margin-bottom:1rem">Berita Kesehatan Hari Ini</h2>
+            <div class="card mb-4" style="max-width: 1000px; width: 100%;height: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/images/sakitkepala.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h3 class="card-title">Sakit Kepala Bagian Belakang: Penyebab & Cara Mengatasi</h3>
+                    <p class="card-text">Sakit kepala merupakan keluhan kesehatan paling umum yang sering terjadi. Penyebabnya bermacam-macam, tergantung di mana lokasi sakit kepala berasal. Kepala bagian belakang adalah salah satu area kepala yang sering alami sakit.</p>
+                    <button type="button" class="btn btn-sm btn-outline-success fst-italic ">Baca selengkapnya</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-4" style="max-width: 1000px; width: 100%;height: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/images/jerawat.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h3 class="card-title">Seperti Apa Ciri-ciri Jerawat Akan Sembuh?</h3>
+                    <p class="card-text">Jerawat merupakan masalah kulit yang paling sering terjadi. Selain menyakitkan, tak jarang jerawat juga menyisakan bekas hitam yang bisa menurunkan kepercayaan diri. Apalagi jika jerawat yang muncul merupakan jenis jerawat batu yang merah, besar, dan menyakitkan.</p>
+                    <button type="button" class="btn btn-sm btn-outline-success fst-italic ">Baca selengkapnya</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-4" style="max-width: 1000px; width: 100%;height: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/images/HIVAIDS.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h3 class="card-title">Kenali Penyebab Utama dan Cara Penularan HIV/AIDS</h3>
+                    <p class="card-text">HIV/AIDS adalah penyakit kronis akibat adanya infeksi virus yang menyerang sistem imun. Dengan rusaknya sistem kekebalan tubuh, kemampuan tubuh untuk melawan infeksi dan penyakit jadi terganggu. HIV yang tidak ditangani dapat berkembang menjadi AIDS.</p>
+                    <button type="button" class="btn btn-sm btn-outline-success fst-italic ">Baca selengkapnya</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-4" style="max-width: 1000px; width: 100%;height: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/images/stress.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h3 class="card-title">Anhedonia: Penyebab, Gejala, Cara Mengatasi</h3>
+                    <p class="card-text">Saat stres meningkat, kamu bisa saja kehilangan minat terhadap hal-hal yang disenangi sebelumnya. Jika kondisi ini terus berlanjut, bisa jadi kamu sedang alami gejala anhedonia. Apa itu anhedonia? Berikut ini penjelasan lengkap mengenai penyebab hingga cara mengatasi anhedonia. Yuk, simak selengkapnya sampai akhir!</p>
+                    <button type="button" class="btn btn-sm btn-outline-success fst-italic ">Baca selengkapnya</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-4" style="max-width: 1000px; width: 100%;height: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/images/lidah.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h3 class="card-title">Mengenal Kondisi Kesehatan dari 9 Warna Lidah</h3>
+                    <p class="card-text">Tahukah kamu warna lidah bisa menunjukan kondisi kesehatan tubuh? Warna lidah yang normal menunjukkan warna merah muda, dengan tonjolan papila (bintik-bintik lidah) yang normal. Perubahan warna dan kondisi papila dapat mengindikasikan adanya masalah kesehatan pada tubuh.</p>
+                    <button type="button" class="btn btn-sm btn-outline-success fst-italic ">Baca selengkapnya</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-4" style="max-width: 1000px; width: 100%;height: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/images/amunizer.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h3 class="card-title">Amunizer, Suplemen Herbal Peningkat Sistem Imun</h3>
+                    <p class="card-text">Kamu mungkin sudah pernah mendengar nama suplemen yang satu ini. Amunizer adalah suplemen yang ditujukan untuk membantu tingkatkan daya tahan tubuh sekaligus memelihara kesehatan. Suplemen ini terbuat dari bahan herbal, yang punya banyak khasiat bagi tubuh.</p>
+                    <button type="button" class="btn btn-sm btn-outline-success fst-italic ">Baca selengkapnya</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- Halaman Artikel -->
+
+    <!-- Footer -->
+    <section>
+      <footer id="footer" class="text-lg-start text-dark" style="background-color: #2596be">
+        <div class="container pb-4 pe-4 ps-4 pb-0">
+          <section>
+            <div class="row">
+              <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h1 class="mb-4 font-weight-bold text-white">YukSehat</h1>
+                <h6 class="text-white">
+                  YukSehat adalah aplikasi berbasis website yang diciptakan untuk memudahkan masyarakat dalam mengakses layanan kesehatan secara daring. Website ini dapat disertai dengan platform untuk bertanya kepada dokter dan akses rumah
+                  sakit terdekat
+                </h6>
+              </div>
+              <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3 text-white">
+                <h1 class="mb-4 font-weight-bold">Kontak</h1>
+                <h6 class=""><i class="fas fa-home me-3"></i>Surya Sumantri No.65, Bandung</h6>
+                <h6 class=""><i class="fas fa-envelope me-3"></i>CrediTion@gmail.com</h6>
+                <h6 class=""><i class="fas fa-phone me-3"></i>+62 22-201 2186</h6>
+                <h6 class=""><i class="fas fa-fax me-3"></i>+62 22-201 5154</h6>
+              </div>
+            </div>
+          </section>
+
+          <hr class="my-3 text-white" />
+
+          <section class="p-3 pt-0">
+            <div class="row d-flex align-items-center">
+              <div class="col-md-7 col-lg-8 text-center text-md-start text-white">
+                <div class="p-3 fs-5">© 2022 CrediTion</div>
+              </div>
+
+              <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end text-white">
+                <a class="btn btn-outline-light btn-floating m-1" role="button" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" role="button" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" role="button" href="https://www.google.com/" target="_blank"><i class="fab fa-google"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" role="button" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </footer>
+    </section>
+    <!-- Footer -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
