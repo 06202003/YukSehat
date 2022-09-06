@@ -190,3 +190,24 @@ body::-webkit-scrollbar-thumb {
     display: none;
   }
 }
+
+/* tanya dokter */
+#dokter1 {
+  height: auto;
+  max-height: 200px;
+  width: 100%;
+  max-width: 200px;
+}
+
+#hubungi {
+  margin-top: 9rem;
+}
+
+.btn-rata {
+  width: 30px;
+  height: 30px;
+}
+
+.btn-dokter:hover {
+  background-color: none;
+}
