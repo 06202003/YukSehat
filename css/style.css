@@ -130,9 +130,7 @@ body::-webkit-scrollbar-thumb {
 #login {
   background-image: url('/images/bglogin.jpg');
 }
-textarea {
-  padding: 10px 12px;
-}
+
 .button-login {
   background-color: #3194d1 !important;
 }
@@ -144,6 +142,7 @@ textarea {
 }
 /* Login */
 
+/* Penyaktit & Obat */
 #vertical {
   transform: rotate(90deg);
   width: auto;
@@ -151,4 +150,29 @@ textarea {
   color: black;
   background-color: black;
   height: 0.5rem;
+}
+.sec-penyakitobat {
+  height: 24.5vh;
+}
+/* Penyaktit & Obat */
+
+/* Media Query Smartphone*/
+@media only screen and (min-width: 319px) and (max-width: 667px) {
+  #vertical {
+    transform: rotate(0deg);
+    width: auto;
+    color: black;
+    background-color: black;
+  }
+  .sec-penyakitobat {
+    height: auto;
+    margin-bottom: 4rem;
+  }
+
+  .logo-login {
+    max-width: 150px;
+    width: 100%;
+    margin: 1rem;
+    border: none;
+  }
 }

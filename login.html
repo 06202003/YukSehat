@@ -85,41 +85,42 @@
             <form>
               <div class="mb-3">
                 <label for="username" class="form-label">Nama Akun</label>
-                <input type="text" class="form-control" id="username" aria-describedby="emailHelp">
+                <input type="text" class="form-control" id="username" aria-describedby="emailHelp" required>
               </div>
               <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Kata Sandi</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                <input type="password" class="form-control" id="exampleInputPassword1"required>
               </div>
               <div class="mb-3">
                 <label for="NamaLengkap" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="NamaLengkap" aria-describedby="emailHelp">
+                <input type="text" class="form-control" id="NamaLengkap" aria-describedby="emailHelp" required>
               </div>
               <div class="mb-3">
                 <label for="Umur" class="form-label">Umur</label>
-                <input type="number" class="form-control" id="Umur" aria-describedby="emailHelp" min="1" value="1">
+                <input type="number" class="form-control" id="Umur" aria-describedby="emailHelp" min="1" value="1" required>
               </div>
               <div class="mb-3">
                 <label for="Alamat" class="form-label">Alamat</label>
-                <textarea  class="border rounded-2" id="Alamat" name="Alamat" rows="5" cols="46"></textarea>
+                <input type="text" class=" form-control " id="Alamat" name="Alamat" required>
               </div>
               <div class="mb-3">
                 <label for="Notelp" class="form-label">Nomor Telepon</label>
-                <input type="text" class="form-control" id="Notelp" aria-describedby="emailHelp">
+                <input type="text" class="form-control" id="Notelp" aria-describedby="emailHelp" required>
               </div>
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Alamat Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                 <div id="emailHelp" class="form-text">kami tidak akan menyebarkan email Anda kepada siapapun.</div>
               </div>
               <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Centang kotak untuk validaso</label>
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                <label class="form-check-label" for="exampleCheck1">Centang kotak untuk validasi</label>
               </div>
+              <button type="submit" class="btn  btn-primary pb-2" >Daftar</button>
             </form>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Daftar</button>
+            <button type="submit" class="btn btn-success" >Close</button>
           </div>
         </div>
       </div>
