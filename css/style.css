@@ -47,7 +47,12 @@ body::-webkit-scrollbar-thumb {
 .button-login-nav {
   background-color: #0066a6 !important;
 }
-
+.bordernav {
+  border-right: solid white;
+}
+.margin-nav {
+  margin-left: 0.5rem;
+}
 /* Navbar */
 
 /* Fitur */
@@ -174,5 +179,11 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     margin: 1rem;
     border: none;
+  }
+  .bordernav {
+    border-right: none;
+  }
+  .margin-nav {
+    margin: 0;
   }
 }
