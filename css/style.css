@@ -3,9 +3,39 @@
   padding: 0;
 }
 
+.btn:hover {
+  font-weight: bolder;
+}
+.btn-outline-success {
+  border: none;
+}
+
+/* Body */
 body {
   font-family: 'Montserrat', sans-serif;
 }
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 20px;
+  border: 3px solid black;
+}
+/* Body */
+
+.pembatas {
+  color: black;
+  height: 0.2rem;
+  background-color: black;
+}
+
+/* Navbar */
 .navbar {
   background-color: #2596be;
   color: white;
@@ -14,7 +44,26 @@ body {
 .navbar-brand {
   font-size: 1.5rem;
 }
+.button-login-nav {
+  background-color: #0066a6 !important;
+}
 
+/* Navbar */
+
+/* Fitur */
+.fitur {
+  height: auto;
+  max-height: 100px;
+  width: 100%;
+  max-width: 100px;
+  margin: 1rem;
+}
+.kalku {
+  padding: 5px;
+}
+/* Fitur */
+
+/* Informasi */
 .infromasisatu {
   height: auto;
   max-height: 300px;
@@ -28,17 +77,7 @@ body {
   width: 100%;
   max-width: 500px;
 }
-
-.fitur {
-  height: auto;
-  max-height: 100px;
-  width: 100%;
-  max-width: 100px;
-  margin: 1rem;
-}
-.kalku {
-  padding: 5px;
-}
+/* Insformasi */
 
 /* Testimoni */
 .client {
@@ -57,9 +96,10 @@ body {
 
 .t-card {
   padding: 1.8125rem 1.125rem;
-  background-color: #cde0f3;
+  background-color: #e5eef7;
   border-radius: 1.25rem;
   font-size: 1.25rem;
+  font-weight: bold;
   color: black;
   height: auto;
 }
@@ -90,11 +130,19 @@ body {
 #login {
   background-image: url('/images/bglogin.jpg');
 }
-/* Login */
-
 textarea {
   padding: 10px 12px;
 }
+.button-login {
+  background-color: #3194d1 !important;
+}
+.link-login {
+  color: #3194d1 !important;
+}
+.icon-login {
+  color: #3194d1;
+}
+/* Login */
 
 #vertical {
   transform: rotate(90deg);

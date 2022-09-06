@@ -25,6 +25,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet" />
   </head>
   <body onload="showAlert()" id="login">
+    <!-- Login -->
     <section class="my-auto" style="height:100vh">
       <div class="card login ">
         <div class="row g-0">
@@ -40,7 +41,7 @@
           </div>
           <div class="col-md-7 my-auto">
             <div class="card-body">
-              <h1 class="card-title fw-bold text-center mb-5 pt-3">Yuk Sehat</h1>
+              <h1 class="card-title fw-bold text-center mb-5 pt-3">YukSehat</h1>
               <form id="login-form" action="index.html">
                 <div class="mb-4">
                   <input type="text" class="form-control" id="userid" aria-describedby="inputGroupPrepend2" placeholder="Nama Akun" required />
@@ -50,19 +51,19 @@
                  
                 </div>
                 <div class="col-12 text-center mt-3">
-                  <input class="btn btn-lg btn-primary" type="submit" onclick="return acc()" value="Masuk"></input>
+                  <input class="btn btn-lg btn-primary button-login" type="submit" onclick="return acc()" value="Masuk"></input>
                 </div>
                 <div class="col-12  mt-2 mb-2 text-center">
                 <a type="button" class="daftarsekarang" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                  <h6 class="fw-bold">Daftar Sekarang</h6>
+                  <h6 class="fw-bold link-login">Daftar Sekarang</h6>
                 </a>
                 
                 </div>
                 <div class="col-md-12 d-flex justify-content-center" >
-                  <a class="mx-3" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f fa-2x" ></i></a>
-                  <a class="mx-3" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x" ></i></a>
-                  <a class="mx-3" href="https://www.google.com/" target="_blank"><i class="fab fa-google fa-2x" ></i></a>
-                  <a class="mx-3" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x" ></i></a>
+                  <a class="mx-3" href="https://www.facebook.com/" target="_blank"><i class="icon-login fab fa-facebook-f fa-2x"></i></a>
+                  <a class="mx-3" href="https://www.twitter.com/" target="_blank"><i class="icon-login fab fa-twitter fa-2x" ></i></a>
+                  <a class="mx-3" href="https://www.google.com/" target="_blank"><i class="icon-login fab fa-google fa-2x" ></i></a>
+                  <a class="mx-3" href="https://www.instagram.com/" target="_blank"><i class="icon-login fab fa-instagram fa-2x" ></i></a>
                 </div>
               </form>
             </div>
@@ -70,6 +71,7 @@
         </div>
       </div>
     </section>
+    <!-- Login -->
     
     <!-- Modal -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
