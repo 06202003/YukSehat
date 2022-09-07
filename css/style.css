@@ -211,3 +211,41 @@ body::-webkit-scrollbar-thumb {
 .btn-dokter:hover {
   background-color: none;
 }
+
+/* Media Query Halaman Kalkulator */
+@media only screen and (min-width: 600px) {
+      .mediaqOC{
+        margin-left: 530px; 
+        margin-top: 4%; 
+        width: 30%; 
+        height: 85%;
+      }
+      
+      .mediaqOC1{
+        margin-right: 545px; 
+        margin-top: 4%; 
+        width: 30%; 
+        height: 85%;
+      }
+
+      .mediaqOC2{
+        margin-left: 530px; 
+        margin-top: 4%; 
+        width: 30%; 
+      }
+      }
+/* End Media Query Halaman Kalkulator */
+
+/* Media Query Halaman cek rumkit  */
+@media only screen and (min-width: 600px) {
+  .mediaqOC{
+    margin-left: 530px; 
+    margin-top: 4%; 
+    width: 30%; 
+    height: 85%;
+  }
+  .mediaqI{
+    width: 50%;
+  }
+  }
+/* End Media Query Halaman cek rumkit  */
