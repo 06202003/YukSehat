@@ -47,6 +47,10 @@ body::-webkit-scrollbar-thumb {
 .button-login-nav {
   background-color: #0066a6 !important;
 }
+.button-login-nav:hover {
+  background-color: #0066a6 !important;
+  color: white;
+}
 .bordernav {
   border-right: solid white;
 }
@@ -137,13 +141,16 @@ body::-webkit-scrollbar-thumb {
 }
 
 .button-login {
-  background-color: #3194d1 !important;
+  background-color: #0066a6 !important;
 }
 .link-login {
-  color: #3194d1 !important;
+  color: #0066a6 !important;
 }
 .icon-login {
-  color: #3194d1;
+  color: #0066a6;
+}
+.label-daftar {
+  font-size: 0.8em;
 }
 /* Login */
 
@@ -163,6 +170,10 @@ body::-webkit-scrollbar-thumb {
 
 /* Media Query Smartphone*/
 @media only screen and (min-width: 319px) and (max-width: 667px) {
+  .button-login-nav {
+    width: 100%;
+    background-color: #0066a6 !important;
+  }
   #vertical {
     transform: rotate(0deg);
     width: auto;
