@@ -116,7 +116,9 @@ body::-webkit-scrollbar-thumb {
 /* Testimoni */
 
 /* Footer */
-
+.btn-floating:hover {
+  color: #2596be;
+}
 /* Footer */
 
 /* Login */
@@ -145,6 +147,12 @@ body::-webkit-scrollbar-thumb {
 }
 .link-login {
   color: #0066a6 !important;
+  opacity: 50%;
+}
+.link-login:hover {
+  opacity: 100%;
+  color: #0066a6 !important;
+  text-decoration: underline;
 }
 .icon-login {
   color: #0066a6;
@@ -173,6 +181,14 @@ body::-webkit-scrollbar-thumb {
   .button-login-nav {
     width: 100%;
     background-color: #0066a6 !important;
+  }
+  .lh-lg {
+    font-size: 0.6em;
+  }
+  .testi-tengah {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
   }
   #vertical {
     transform: rotate(0deg);
