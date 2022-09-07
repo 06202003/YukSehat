@@ -78,50 +78,68 @@
       <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title fw-bold" id="staticBackdropLabel">Form Pendaftaran</h5>
+            <h5 class="modal-title fw-bold" id="staticBackdropLabel">Daftar akun YukSehat</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
             <form>
               <div class="mb-3">
-                <label for="username" class="form-label">Nama Akun</label>
-                <input type="text" class="form-control" id="username" aria-describedby="emailHelp" required>
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Alamat Email" required>
+                <div id="emailHelp" class="form-text label-daftar">Gunakan alamat email aktif Anda</div>
               </div>
               <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Kata Sandi</label>
-                <input type="password" class="form-control" id="exampleInputPassword1"required>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Tuliskan kata sandi" required>
+                <div id="emailHelp" class="form-text label-daftar">Kata sandi minimal 8 karakter dengan kombinasi huruf dan angka</div>
               </div>
               <div class="mb-3">
                 <label for="NamaLengkap" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="NamaLengkap" aria-describedby="emailHelp" required>
+                <input type="text" class="form-control" id="NamaLengkap" aria-describedby="emailHelp" placeholder="Nama Lengkap" required>
+                <div id="emailHelp" class="form-text label-daftar">Masukkan nama asli Anda, nama akan digunakan pada data sertifikat</div>
               </div>
               <div class="mb-3">
-                <label for="Umur" class="form-label">Umur</label>
-                <input type="number" class="form-control" id="Umur" aria-describedby="emailHelp" min="1" value="1" required>
+                <label for="Umur" class="form-label">Tanggal Lahir</label>
+                <input type="date" class="form-control" id="Umur" aria-describedby="emailHelp" required>
               </div>
               <div class="mb-3">
                 <label for="Alamat" class="form-label">Alamat</label>
-                <input type="text" class=" form-control " id="Alamat" name="Alamat" required>
+                <input type="text" class=" form-control " id="Alamat" name="Alamat" placeholder="Alamat rumah atau institusi" required>
+                <div id="emailHelp" class="form-text label-daftar">Masukkan alamat rumah atau institusi dengan tepat</div>
               </div>
               <div class="mb-3">
                 <label for="Notelp" class="form-label">Nomor Telepon</label>
-                <input type="text" class="form-control" id="Notelp" aria-describedby="emailHelp" required>
+                <input type="text" class="form-control" id="Notelp" aria-describedby="emailHelp" placeholder="Nomor Telepon" required>
+                <div id="emailHelp" class="form-text label-daftar">Masukkan nomor telepon dengan tepat dan terdaftar</div>
               </div>
+            
+              <button type="submit" class="btn btn-primary pb-2 mb-3 button-login" style="width: 100%;">Daftar</button>
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Alamat Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-                <div id="emailHelp" class="form-text">kami tidak akan menyebarkan email Anda kepada siapapun.</div>
+                <div class="row d-flex justify-content-center">
+                  <div class="col-md-5"><hr></div>
+                  <div class="col-md-2 text-center my-auto">Atau</div>
+                  <div class="col-md-5"><hr></div>
+                </div>
               </div>
-              <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-                <label class="form-check-label" for="exampleCheck1">Centang kotak untuk validasi</label>
-              </div>
-              <button type="submit" class="btn  btn-primary pb-2" >Daftar</button>
+              <button class="btn btn-primary button-login" style="width: 100%;">
+                <div class="row d-flex justify-content-center" >
+                  <div class="col-md-1 my-auto">
+                    <i class="fa-brands fa-google my-auto"></i>
+                  </div>
+                  <div class="col-md-10 text-center">
+                    Daftar dengan Google
+                  </div>
+                  <div class="col-md-1 ">
+                  </div>
+                </div>
+              </button>
+              <div class="text-center mt-3">
+                Sudah punya akun?
+                        <a href="login.html" style="text-decoration: none;color:#0066a6">Masuk sekarang</a>
+                </div>
             </form>
           </div>
-          <div class="modal-footer">
-            <button type="submit" class="btn btn-success" >Close</button>
-          </div>
+
         </div>
       </div>
     </div>
