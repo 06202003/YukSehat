@@ -139,7 +139,7 @@ body::-webkit-scrollbar-thumb {
   text-decoration: none;
 }
 #login {
-  background-image: url('/images/bglogin.jpg');
+  background-color: #0066a6;
 }
 
 .button-login {
