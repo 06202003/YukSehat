@@ -28,7 +28,8 @@
         <a class="navbar-brand" href="#">
           <img src="/images/logo.png" alt="" width="50" height="50" />
         </a>
-        <a class="navbar-brand fw-bold text-white" href="#">YukSehat</a>
+        <a class="navbar-brand fw-bold text-white" href="index.html">YukSehat</a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,21 +39,21 @@
               <a class="nav-link text-white" aria-current="page" href="index.html">Beranda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="penyakitobat.html">Cari Penyakit & Obat</a>
+              <a class="nav-link text-white" href="penyakitobat.html">Penyakit & Obat</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="kalkulator.html">Kalkulator Kesehatan</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="cekrumkit.html">Cek Rumah Sakit</a>
+              <a class="nav-link text-white" href="cekrumkit.html">Rumah Sakit</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="tanyadok.html">Tanya Dokter</a>
             </li>
-            <li class="nav-item border-end border-3 border-light">
+            <li class="nav-item bordernav">
               <a class="nav-link text-white" href="artikel.html">Artikel</a>
             </li>
-            <li class="nav-item my-auto ms-2">
+            <li class="nav-item my-auto margin-nav">
               <a type="button" class="btn btn-outline-light button-login-nav" href="login.html">Masuk</a>
             </li>
           </ul>
@@ -116,7 +117,9 @@
                 </div>
                 <p class="card-text ms-3"><small class="text-muted">(022) 6614221</small></p>
                 <div class="card-footer">
-                  <small class="text-muted"><button type="button" class="btn btn-sm btn-outline-success fst-italic ">Baca selengkapnya</button></small>
+                  <small class="text-muted"> <button type="button" class="btn btn-sm btn-outline-success fst-italic" data-bs-toggle="modal" data-bs-target="#staticBackdrop7">
+                    Baca selengkapnya
+                  </button></small>
                 </div>
               </div>
             </div>
@@ -130,7 +133,9 @@
                 </div>
                 <p class="card-text ms-3"><small class="text-muted">(022) 6614221</small></p>
                 <div class="card-footer">
-                  <small class="text-muted"><button type="button" class="btn btn-sm btn-outline-success fst-italic ">Baca selengkapnya</button></small>
+                  <small class="text-muted"><button type="button" class="btn btn-sm btn-outline-success fst-italic" data-bs-toggle="modal" data-bs-target="#staticBackdrop7">
+                    Baca selengkapnya
+                  </button></small>
                 </div>
               </div>
             </div>
@@ -144,7 +149,9 @@
                 </div>
                 <p class="card-text ms-3"><small class="text-muted">(022) 6614221</small></p>
                 <div class="card-footer">
-                  <small class="text-muted"><button type="button" class="btn btn-sm btn-outline-success fst-italic ">Baca selengkapnya</button></small>
+                  <small class="text-muted"><button type="button" class="btn btn-sm btn-outline-success fst-italic" data-bs-toggle="modal" data-bs-target="#staticBackdrop7">
+                    Baca selengkapnya
+                  </button></small>
                 </div>
               </div>
             </div>
@@ -155,12 +162,13 @@
 
       <!-- offcanvas -->
 
-      <div class="offcanvas offcanvas-start mediaqOC" data-bs-backdrop="static"  tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+      <div class="offcanvas offcanvas-start mediaqOC rounded-3" data-bs-backdrop="static"  tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
         <div class="offcanvas-header">
           <h5 class="offcanvas-title text-center fw-bold" id="staticBackdropLabel">Filter </h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
+          <hr>
           <div >
             <form>
               <div class="mb-3">
@@ -208,12 +216,13 @@
                   </select>
               </div>
               <hr>
-              <button type="submit" class="btn btn-primary float-end">Submit</button>
+              <button type="submit" class="btn btn-primary float-end w-100">Submit</button>
             </form>
           </div>
         </div>
       </div>
       <!-- end offcanvas -->
+      
     </div>
      <!-- Pencarian Penyakit dan Obat -->
 
@@ -260,6 +269,53 @@
         </footer>
       </section>
       <!-- Footer -->
+
+      <!-- Modal Rumah Sakit -->
+      <div class="modal fade" id="staticBackdrop7" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fw-bold" id="staticBackdropLabel">Rumah Sakit Umum Kasih Bunda</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="card" style="max-width: 30rem;border: none;"> 
+                <img src="https://cdn.discordapp.com/attachments/952574676293517506/1017269870838161438/st_christophers_hospital_loop_16x9.jpg" class="card-img-top rounded-3" alt="...">
+                
+                <div class="card-body" style="font-size: 0.8em;">
+                  <p class="card-text">Rumah Sakit Umum Kasih Bunda pemilik PT. Mitra Medika Sejati adalah sebuah Rumah Sakit Umum Type C, yang bermula dari Klinik Bersalin yang didirikan pada Tahun 2008, dan mengalami perkembangan menjadi RS Bersalin Kasih Bunda pada tahun 2012. Dengan semakin kompleknya kebutuhan masyarakat terhadap pelayanan kesehatan, dan untuk memenuhi tuntutan masyarakat terhadap pengobatan secara holistik, maka pada tahun 2012 dikembangkanlah menjadi Rumah Sakit Umum Kasih Bunda.</p>
+                  <h6 class="fw-bold">Pelayanan</h6>
+                  <ul>
+                    <li><p>IGD 24 Jam (24 Hours Emergency Unit) melayani pasien selama 24 jam nonstop</p></li>
+                    <li><p>Klinik Umum (<i>Geeric Clinic </i>)</p></li>
+                    <li><p>Klinik Kebidanan & Kandungan  (<i>SObgyn </i>)</p></li>
+                    <li><p>Klinik Anak (<i>Paediatric </i>)</p></li>
+                    <li><p>Klinik Penyakit Dalam (<i>Neurologi </i>)</p></li>
+                    <li><p>Klinik Syaraf (<i>Specialist Clinic </i>)</p></li>
+                    <li><p>Klinik Mata (<i>Eye Clinic </i>)</p></li>
+                    <li><p>Klinik Gigi (<i>Dental Clinic </i>)</p></li>
+                    <li><p>Klinik THT (<i>ENT Clinic </i>)</p></li>
+                    <li><p>Klinik Bedah Umum (<i>General Surgery </i>)</p></li>
+                    <li><p>Klinik Bedah Orthopedi (<i>Orthopedic Surgery </i>)</p></li>
+                    <li><p>Klinik Urologi </p></li>
+                    <li><p>Klinik Psikiatri </p></li>
+                    <li><p>Klinik Jantung</p></li>
+                    <li><p>Haemodialisa</p></li>
+                    <li><p>Fisioterapy</p></li>
+                    <li><p>Klinik Bedah Anak</p></li>
+                    <li><p>Klinik Orthodonthy</p></li>
+                    <li><p>Klinik Bedah Mulut</p></li>
+                    <li><p>Klinik Prosthodonthy</p></li>
+                    <li><p>Klinik Paru</p></li>
+                    <li><p>Klinik DOT</p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal Rumah Sakit -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>

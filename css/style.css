@@ -166,21 +166,35 @@ body::-webkit-scrollbar-thumb {
 #vertical {
   transform: rotate(90deg);
   width: auto;
-  margin-top: 4rem;
+  margin-top: 7rem;
   color: black;
   background-color: black;
   height: 0.5rem;
 }
 .sec-penyakitobat {
-  height: 24.5vh;
+  height: 32.5vh;
 }
 /* Penyaktit & Obat */
+
+/* Kalkulator */
+.sec-kalkulator {
+  height: 42.5vh;
+  margin-top: 7rem;
+}
+/* Kalkulator */
 
 /* Media Query Smartphone*/
 @media only screen and (min-width: 319px) and (max-width: 667px) {
   .button-login-nav {
     width: 100%;
     background-color: #0066a6 !important;
+  }
+  .sec-penyakitobat {
+    height: auto;
+  }
+  .sec-kalkulator {
+    height: auto;
+    margin-top: 7rem;
   }
   .lh-lg {
     font-size: 0.6em;

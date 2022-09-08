@@ -27,7 +27,8 @@
         <a class="navbar-brand" href="#">
           <img src="/images/logo.png" alt="" width="50" height="50" />
         </a>
-        <a class="navbar-brand fw-bold text-white" href="#">YukSehat</a>
+        <a class="navbar-brand fw-bold text-white" href="index.html">YukSehat</a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,13 +38,13 @@
               <a class="nav-link text-white" aria-current="page" href="index.html">Beranda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="penyakitobat.html">Cari Penyakit & Obat</a>
+              <a class="nav-link text-white" href="penyakitobat.html">Penyakit & Obat</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="kalkulator.html">Kalkulator Kesehatan</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="cekrumkit.html">Cek Rumah Sakit</a>
+              <a class="nav-link text-white" href="cekrumkit.html">Rumah Sakit</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="tanyadok.html">Tanya Dokter</a>
@@ -69,19 +70,20 @@
           <div class="col-md-5 ">
             <div class="row">
               <div class="col-md-12"><h1>Daftar Penyakit</h1></div>
-              <div class="col-md-12">
+              <div class="col-md-12"><i class="fa-solid fa-viruses fa-5x my-3"></i></div>
+              <div class="col-md-12 mt-2">
                 <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">Tampilkan semua</button>
 
-                <div class="offcanvas offcanvas-bottom h-100" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                <div class="offcanvas offcanvas-bottom" style="height: 90vh;" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
                   <div class="offcanvas-header text-center">
                     <h1 class="offcanvas-title mx-auto" id="staticBackdropLabel">Pencarian Daftar Penyakit</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <button type="button" class="btn-close" style="font-size: 1.5rem;" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                   </div>
                   <div class="offcanvas-body">
                     <div class="container">
 
                       <div class="row d-flex justify-content-center">
-                        <div class="form-group w-50 d-flex justify-content-center">
+                        <div class="form-group w-75 d-flex justify-content-center">
                           <div class="input-group">
                             <input style="font-family: FontAwesome;" class="form-control" id="cari" name="cari" type="text" placeholder='&#xf002' />
                           </div>
@@ -118,8 +120,8 @@
                             <button type="button" class="btn btn-sm btn-outline-primary mx-2">Z</button>
                           </div>
                         </div>
-                        <h4 class="text-start ms-5 mt-4 mb-2">Daftar Penyakit</h4>
-                        <div class="row text-start ms-5 ">
+                        <h4 class="text-start ms-3 mt-4 mb-2">Daftar Penyakit</h4>
+                        <div class="row text-start ">
                           <div class="col-md-4 border-end border-3 border-dark">
                             <h5 class="">Ablasi Retina</h5>
                             <p style="font-size: 0.7em;">Ablasi retina adalah kondisi terlepasnya retina dari bagian belakang mata. Kondisi ini tergolong darurat sehingga harus segera ditangani. Jika tidak, ablasi retina dapat menyebabkan kebutaan permanen.</p>
@@ -204,19 +206,20 @@
           <div class="col-md-5">
             <div class="row">
               <div class="col-md-12"><h1>Daftar Obat</h1></div>
-              <div class="col-md-12">
+              <div class="col-md-12"><i class="fa-solid fa-pills fa-5x my-3"></i></div>
+              <div class="col-md-12 mt-2">
                 <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop1" aria-controls="staticBackdrop">Tampilkan semua</button>
 
-                <div class="offcanvas offcanvas-bottom h-100" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop1" aria-labelledby="staticBackdropLabel">
+                <div class="offcanvas offcanvas-bottom " style="height: 90vh;" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop1" aria-labelledby="staticBackdropLabel">
                   <div class="offcanvas-header">
                     <h1 class="offcanvas-title mx-auto" id="staticBackdropLabel">Pencarian Daftar Obat</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <button type="button" class="btn-close"  style="font-size: 1.5rem;"  data-bs-dismiss="offcanvas" aria-label="Close"></button>
                   </div>
                   <div class="offcanvas-body">
                     <div class="container">
 
                       <div class="row d-flex justify-content-center">
-                        <div class="form-group w-50 d-flex justify-content-center">
+                        <div class="form-group w-75 d-flex justify-content-center">
                           <div class="input-group">
                             <input style="font-family: FontAwesome;" class="form-control" id="cari" name="cari" type="text" placeholder='&#xf002' />
                           </div>
@@ -340,7 +343,7 @@
 
        <!-- Footer -->
        <section>
-        <footer id="footer" class="text-lg-start text-dark fixed-bottom" style="background-color: #2596be">
+        <footer id="footer" class="text-lg-start text-dark " style="background-color: #2596be">
           <div class="container pb-4 pe-4 ps-4 pb-0">
             <section>
               <div class="row">
@@ -387,7 +390,7 @@
         <div class="modal-dialog  modal-dialog-scrollable" >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">Ablasi Retina</h5>
+              <h5 class="modal-title fw-bold" id="staticBackdropLabel">Ablasi Retina</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -420,7 +423,7 @@
         <div class="modal-dialog modal-dialog-scrollable">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">Abacavir</h5>
+              <h5 class="modal-title fw-bold" id="staticBackdropLabel">Abacavir</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
