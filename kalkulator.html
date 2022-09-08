@@ -27,8 +27,7 @@
         <a class="navbar-brand" href="#">
           <img src="/images/logo.png" alt="" width="50" height="50" />
         </a>
-        <a class="navbar-brand fw-bold text-white" href="index.html">YukSehat</a>
-
+        <a class="navbar-brand fw-bold text-white" href="#">YukSehat</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,13 +37,13 @@
               <a class="nav-link text-white" aria-current="page" href="index.html">Beranda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="penyakitobat.html">Penyakit & Obat</a>
+              <a class="nav-link text-white" href="penyakitobat.html">Cari Penyakit & Obat</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="kalkulator.html">Kalkulator Kesehatan</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="cekrumkit.html">Rumah Sakit</a>
+              <a class="nav-link text-white" href="cekrumkit.html">Cek Rumah Sakit</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="tanyadok.html">Tanya Dokter</a>
@@ -62,7 +61,7 @@
     <!-- Navbar -->
 
     <!-- start kalkulator Kesehatan -->
-    <section class="sec-kalkulator">
+    <section style="height: auto; margin-top: 7rem">
       <div class="container" style="margin-bottom: 0.85rem">
         <p class="h1 text-center mb-5">Kalkulator Kesehatan</p>
         <div class="row">
@@ -73,22 +72,22 @@
                   <div class="card-body m-auto">
                     <div class="text-center">
                       <i class="fa-solid fa-weight-scale fs-1"></i>
+                      
                     </div>
-
-                    <h5 class="card-title text-center">Hitung BMI</h5>
+                    
+                    <h5 class="card-title text-center">Hitung BMI </h5>
                     <p class="card-text text-center">
                       <button type="button" class="btn btn-success" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">Hitung</button>
                     </p>
                   </div>
                 </div>
               </div>
-
               <div class="col">
                 <div class="card">
                   <div class="card-body m-auto">
                     <div class="text-center">
-                      <i class="fa-solid fa-utensils fs-1"></i>
-                    </div>
+                    <i class="fa-solid fa-utensils fs-1"></i>
+                  </div>
 
                     <h5 class="card-title text-center">Hitung Kalori</h5>
                     <p class="card-text text-center">
@@ -101,9 +100,9 @@
                 <div class="card">
                   <div class="card-body m-auto">
                     <div class="text-center">
-                      <i class="fa-brands fa-nutritionix fs-1"></i>
+                       <i class="fa-brands fa-nutritionix fs-1"></i>
                     </div>
-
+                   
                     <h5 class="card-title text-center">Hitung EER</h5>
                     <p class="card-text text-center">
                       <button type="button" class="btn btn-success" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop2" aria-controls="staticBackdrop">Hitung</button>
@@ -120,7 +119,7 @@
     <!-- end kalkulator Kesehatan -->
 
     <!-- start offcanvas -->
-    <div class="offcanvas offcanvas-start" data-bs-backdrop="static" style="margin-left: 539px; margin-top: 4%; width: 30%; height: 85%" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+    <div class="offcanvas offcanvas-start medq1"  data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
       <div class="offcanvas-header">
         <h5 class="offcanvas-title text-center fw-bold" id="staticBackdropLabel">Hitung BMI</h5>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -134,7 +133,7 @@
                 <button type="button" class="btn btn-outline-success">
                   <img src="https://cdn.discordapp.com/attachments/952574676293517506/1016351896400838766/cowo.png" class="card-img-top w-50 m-auto mt-3" alt="..." />
                   <div class="card-body">
-                    <h5 class="card-title text-center">Laki-Laki</h5>
+                    <p class="card-title text-center">Laki-Laki</p>
                   </div>
                 </button>
               </div>
@@ -144,7 +143,7 @@
                 <button type="button" class="btn btn-outline-success">
                   <img src="https://cdn.discordapp.com/attachments/952574676293517506/1016351896161747055/cewe.png" class="card-img-top w-50 m-auto mt-3" alt="..." />
                   <div class="card-body">
-                    <h5 class="card-title text-center">Perempuan</h5>
+                    <p class="card-title text-center">Perempuan</p>
                   </div>
                 </button>
               </div>
@@ -171,9 +170,9 @@
       </div>
     </div>
 
-    <div class="offcanvas offcanvas-top" data-bs-backdrop="static" style="margin-left: 539px; margin-top: 4%; width: 30%; height: 85%" tabindex="-1" id="staticBackdrop1" aria-labelledby="staticBackdropLabel">
+    <div class="offcanvas offcanvas-top medq2" style="height: 100%;" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop1" aria-labelledby="staticBackdropLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title text-center fw-bold" id="staticBackdropLabel">Hitung Kalori</h5>
+        <p class="offcanvas-title text-center fw-bold" id="staticBackdropLabel">Hitung Kalori</p>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
@@ -195,7 +194,7 @@
                 <button type="button" class="btn btn-outline-success">
                   <img src="https://cdn.discordapp.com/attachments/952574676293517506/1016351896161747055/cewe.png" class="card-img-top w-50 m-auto mt-3" alt="..." />
                   <div class="card-body">
-                    <h5 class="card-title text-center">Perempuan</h5>
+                    <p class="card-title text-center">Perempuan</p>
                   </div>
                 </button>
               </div>
@@ -222,9 +221,9 @@
       </div>
     </div>
 
-    <div class="offcanvas offcanvas-end" data-bs-backdrop="static" style="margin-right: 539px; margin-top: 4%; width: 30%; height: 85%" tabindex="-1" id="staticBackdrop2" aria-labelledby="staticBackdropLabel">
+    <div class="offcanvas offcanvas-end medq3"  data-bs-backdrop="static" tabindex="-1" id="staticBackdrop2" aria-labelledby="staticBackdropLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title text-center fw-bold" id="staticBackdropLabel">Hitung EER</h5>
+        <p class="offcanvas-title text-center fw-bold" id="staticBackdropLabel">Hitung EER</p>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
@@ -236,7 +235,7 @@
                 <button type="button" class="btn btn-outline-success">
                   <img src="https://cdn.discordapp.com/attachments/952574676293517506/1016351896400838766/cowo.png" class="card-img-top w-50 m-auto mt-3" alt="..." />
                   <div class="card-body">
-                    <h5 class="card-title text-center">Laki-Laki</h5>
+                    <p class="card-title text-center">Laki-Laki</p>
                   </div>
                 </button>
               </div>
@@ -246,7 +245,7 @@
                 <button type="button" class="btn btn-outline-success">
                   <img src="https://cdn.discordapp.com/attachments/952574676293517506/1016351896161747055/cewe.png" class="card-img-top w-50 m-auto mt-3" alt="..." />
                   <div class="card-body">
-                    <h5 class="card-title text-center">Perempuan</h5>
+                    <p class="card-title text-center">Perempuan</p>
                   </div>
                 </button>
               </div>
