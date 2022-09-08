@@ -265,7 +265,7 @@ body::-webkit-scrollbar-thumb {
 /* Media Query Halaman cek rumkit  */
 @media only screen and (min-width: 600px) {
   .mediaqOC {
-    margin-left: 530px;
+    margin-left: 562px;
     margin-top: 4%;
     width: 30%;
     height: 85%;
