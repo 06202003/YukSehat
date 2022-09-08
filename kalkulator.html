@@ -27,7 +27,8 @@
         <a class="navbar-brand" href="#">
           <img src="/images/logo.png" alt="" width="50" height="50" />
         </a>
-        <a class="navbar-brand fw-bold text-white" href="#">YukSehat</a>
+        <a class="navbar-brand fw-bold text-white" href="index.html">YukSehat</a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,13 +38,13 @@
               <a class="nav-link text-white" aria-current="page" href="index.html">Beranda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="penyakitobat.html">Cari Penyakit & Obat</a>
+              <a class="nav-link text-white" href="penyakitobat.html">Penyakit & Obat</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="kalkulator.html">Kalkulator Kesehatan</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="cekrumkit.html">Cek Rumah Sakit</a>
+              <a class="nav-link text-white" href="cekrumkit.html">Rumah Sakit</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="tanyadok.html">Tanya Dokter</a>
@@ -61,8 +62,8 @@
     <!-- Navbar -->
 
     <!-- start kalkulator Kesehatan -->
-    <section style="height: auto; margin-top: 7rem">
-      <div class="container" style="margin-bottom: 0.85rem">
+    <section class="sec-kalkulator">
+      <div class="container" style="margin-bottom: 1rem">
         <p class="h1 text-center mb-5">Kalkulator Kesehatan</p>
         <div class="row">
           <div class="container mb-5">
@@ -72,10 +73,9 @@
                   <div class="card-body m-auto">
                     <div class="text-center">
                       <i class="fa-solid fa-weight-scale fs-1"></i>
-                      
                     </div>
-                    
-                    <h5 class="card-title text-center">Hitung BMI </h5>
+
+                    <h5 class="card-title text-center">Hitung BMI</h5>
                     <p class="card-text text-center">
                       <button type="button" class="btn btn-success" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">Hitung</button>
                     </p>
@@ -86,8 +86,8 @@
                 <div class="card">
                   <div class="card-body m-auto">
                     <div class="text-center">
-                    <i class="fa-solid fa-utensils fs-1"></i>
-                  </div>
+                      <i class="fa-solid fa-utensils fs-1"></i>
+                    </div>
 
                     <h5 class="card-title text-center">Hitung Kalori</h5>
                     <p class="card-text text-center">
@@ -100,9 +100,9 @@
                 <div class="card">
                   <div class="card-body m-auto">
                     <div class="text-center">
-                       <i class="fa-brands fa-nutritionix fs-1"></i>
+                      <i class="fa-brands fa-nutritionix fs-1"></i>
                     </div>
-                   
+
                     <h5 class="card-title text-center">Hitung EER</h5>
                     <p class="card-text text-center">
                       <button type="button" class="btn btn-success" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop2" aria-controls="staticBackdrop">Hitung</button>
@@ -119,7 +119,7 @@
     <!-- end kalkulator Kesehatan -->
 
     <!-- start offcanvas -->
-    <div class="offcanvas offcanvas-start medq1"  data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+    <div class="offcanvas offcanvas-start medq1" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
       <div class="offcanvas-header">
         <h5 class="offcanvas-title text-center fw-bold" id="staticBackdropLabel">Hitung BMI</h5>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -164,13 +164,13 @@
               <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Contoh : 62" />
             </div>
             <hr />
-            <button type="submit" class="btn btn-primary float-end">Submit</button>
+            <button type="submit" class="btn btn-primary w-100 float-end">Submit</button>
           </form>
         </div>
       </div>
     </div>
 
-    <div class="offcanvas offcanvas-top medq2" style="height: 100%;" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop1" aria-labelledby="staticBackdropLabel">
+    <div class="offcanvas offcanvas-top medq2" style="height: 100%" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop1" aria-labelledby="staticBackdropLabel">
       <div class="offcanvas-header">
         <p class="offcanvas-title text-center fw-bold" id="staticBackdropLabel">Hitung Kalori</p>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -215,13 +215,13 @@
               <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Contoh : 62" />
             </div>
             <hr />
-            <button type="submit" class="btn btn-primary float-end">Submit</button>
+            <button type="submit" class="btn btn-primary w-100 float-end">Submit</button>
           </form>
         </div>
       </div>
     </div>
 
-    <div class="offcanvas offcanvas-end medq3"  data-bs-backdrop="static" tabindex="-1" id="staticBackdrop2" aria-labelledby="staticBackdropLabel">
+    <div class="offcanvas offcanvas-end medq3" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop2" aria-labelledby="staticBackdropLabel">
       <div class="offcanvas-header">
         <p class="offcanvas-title text-center fw-bold" id="staticBackdropLabel">Hitung EER</p>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -270,7 +270,7 @@
               <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Contoh : 62" />
             </div>
             <hr />
-            <button type="submit" class="btn btn-primary float-end">Submit</button>
+            <button type="submit" class="btn btn-primary w-100 float-end">Submit</button>
           </form>
         </div>
       </div>
@@ -286,13 +286,13 @@
               <div class="col-md-8 col-lg-3 col-xl-3 mx-auto mt-3">
                 <h3 class="mb-4 font-weight-bold text-white">YukSehat</h3>
                 <p class="text-white" style="font-size: 0.8em">
-                  YukSehat adalah aplikasi berbasis website yang diciptakan untuk memudahkan masyarakat dalam mengakses layanan kesehatan secara daring. Website ini dapat disertai dengan platform untuk bertanya kepada dokter dan akses rumah
-                  sakit terdekat
+                  YukSehat adalah aplikasi berbasis web yang diciptakan untuk memenuhi kebutuhan masyarakat dalam mengakses informasi layanan kesehatan. Aplikasi ini dilengkapi dengan fitur "<b>Tanya Dokter</b>" secara daring serta
+                  informasi rumah sakit terdekat.
                 </p>
               </div>
               <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 text-white">
                 <h3 class="mb-4 font-weight-bold">Kontak</h3>
-                <p class="" style="font-size: 0.8em; line-height: 1em"><i class="fas fa-home me-3"></i>Surya Sumantri No.65, Bandung</p>
+                <p class="" style="font-size: 0.8em; line-height: 1em"><i class="fas fa-home me-3"></i>Surya Sumantri No. 65, Bandung</p>
                 <p class="" style="font-size: 0.8em; line-height: 1em"><i class="fas fa-envelope me-3"></i>CrediTion@gmail.com</p>
                 <p class="" style="font-size: 0.8em; line-height: 1em"><i class="fas fa-phone me-3"></i>+62 22-201 2186</p>
                 <p class="" style="font-size: 0.8em; line-height: 1em"><i class="fas fa-fax me-3"></i>+62 22-201 5154</p>
