@@ -253,9 +253,13 @@ body::-webkit-scrollbar-thumb {
   .triangle {
     display: none;
   }
-  .offcanvas {
+  
+/*  GANTI NAMA CLASSNYA JADI KENA SEMUA OFF CANVAS  */
+/*   .offcanvas {
     height: 60vh;
-  }
+  } */
+  
+  
   .addbord {
     border-right: 0;
   }
