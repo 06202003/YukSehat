@@ -86,7 +86,7 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   max-width: 500px;
 }
-/* Insformasi */
+/* Informasi */
 
 /* Testimoni */
 .client {
@@ -225,6 +225,10 @@ body::-webkit-scrollbar-thumb {
   display: none;
 }
 
+.artikelsize {
+  font-size: 0.85em;
+}
+
 /* Media Query Halaman Kalkulator */
 @media only screen and (min-width: 600px) {
   .medq1 {
@@ -257,6 +261,10 @@ body::-webkit-scrollbar-thumb {
   .button-login-nav {
     width: 100%;
     background-color: #0066a6 !important;
+  }
+
+  .fontcari {
+    font-size: 1em;
   }
 
   .hrcaridok {
